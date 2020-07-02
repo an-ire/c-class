@@ -16,7 +16,7 @@ padding: 0;
 
 }
 
-div#container {
+div #container {
 
 /*background-color: #00FFFF;*/
 
@@ -28,19 +28,89 @@ margin: 0;
 
 }
 
+#p1{
+  background-color: green;
+
+  border: 1px solid black;
+
+  padding: 2.5px 10px ;
+
+  font-weight: bold;
+
+  position: absolute;
+  
+  text-align: center;
+}
+
+div #p2{
+
+  background-color: grey;
+
+  border: 1px solid black;
+
+  padding: 5px;
+
+  padding-top: 50px;
+  
+  float: left;
+}
+
+div #p3{
+  
+  background-color: red;
+
+  color: white;
+
+  border: 1px solid black;
+
+  padding: 2.5px 10px ;
+
+  position: absolute;
+  
+}
+div #p4{
+  
+  background-color: grey;
+
+  border: 1px solid black;
+
+  padding: 5px;
+
+  padding-top: 50px;
+  
+  float: left;
+}
+
+div #p5{
+  background-color: brown;
+
+  color: white;
+
+  border: 1px solid black;
+
+  padding: 2.5px 10px ;
+
+  position: absolute;
+
+}
+
+div #p6{
+  
+  background-color: grey;
+
+  border: 1px solid black;
+
+  padding: 5px;
+
+  padding-top: 50px;
+
+  float: left;
+}
 /********** Large devices only **********/
 
 @media (min-width: 992px) {
 
 div #p1{
-
-background-color: pink;
-
-border: 1px solid black;
-
-padding: 2.5px 10px ;
-
-position: absolute;
 
 top: 98px;
 
@@ -50,35 +120,14 @@ width: 10%;
 
 height: 6%;
 
-text-align: center;
-
 float: left;
-
-
-
-
-
 }
 
 div #p2{
 
-background-color: grey;
-
-border: 1px solid black;
-
-padding: 5px;
-
-padding-top: 50px;
-
 width: 30%;
 
 margin-right: 2.5%;
-
-/*clear: left;*/
-
-float: left;
-
-
 
 /*position:absolute;*/
 
@@ -87,16 +136,6 @@ float: left;
 }
 
 div #p3{
-
-background-color: red;
-
-color: white;
-
-border: 1px solid black;
-
-padding: 2.5px 10px ;
-
-position: absolute;
 
 top: 98px;
 
@@ -113,33 +152,14 @@ float: right;
 
 div #p4{
 
-background-color: grey;
-
-border: 1px solid black;
-
-padding: 5px;
-
-padding-top: 50px;
-
-float: left;
-
 width: 30%;
 
 margin-right: 2.5%;
 
 margin-left: 2.5%;
 }
+  
 div #p5{
-
-background-color: brown;
-
-color: white;
-
-border: 1px solid black;
-
-padding: 2.5px 10px ;
-
-position: absolute;
 
 top: 98px;
 
@@ -156,16 +176,6 @@ float: right;
 
 div #p6{
 
-background-color: grey;
-
-border: 1px solid black;
-
-padding: 5px;
-
-padding-top: 50px;
-
-float: left;
-
 margin-left: 2.5%;
 
 width: 30%;
@@ -178,17 +188,9 @@ width: 30%;
 
 div #p1{
 
-background-color: pink;
-
-border: 1px solid black;
-
-padding: 2.5px 10px ;
-
 font-weight: bold;
 
 font-size: 20px;
-
-position: absolute;
 
 left: 320px;
 
@@ -196,22 +198,10 @@ width: 100px;
 
 height: 40px;
 
-text-align: center;
-
 float: right;
 }
 
 div #p2{
-
-background-color: grey;
-
-border: 1px solid black;
-
-padding: 5px;
-
-padding-top: 50px;
-
-float: left;
 
 width: 48.5%;
 
@@ -219,14 +209,6 @@ margin-right: 10px;
 }
 
 div #p3{
-
-background-color: red;
-
-border: 1px solid black;
-
-padding: 2.5px 10px ;
-
-position: absolute;
 
 font-weight: bold;
 
@@ -241,48 +223,20 @@ height: 40px;
 text-align: center;
 
 float: right;
-
-
-
 }
 
-
-
 div #p4{
-
-background-color: grey;
-
-border: 1px solid black;
-
-padding: 5px;
-
-padding-top: 50px;
-
-float: left;
 
 width: 48.5%;
 
 margin-left: 10px;
-
-
-
 }
 
-
-
 div #p5{
-
-background-color: brown;
-
-border: 1px solid black;
-
-padding: 2.5px 10px ;
 
 font-weight: bold;
 
 font-size: 20px;
-
-position: absolute;
 
 top: 315px;
 
@@ -295,22 +249,9 @@ height: 40px;
 text-align: center;
 
 float: right;
-
-
-
 }
 
 div #p6{
-
-background-color: grey;
-
-border: 1px solid black;
-
-padding: 5px;
-
-padding-top: 50px;
-
-float: left;
 
 width: 100%;
 }
@@ -320,14 +261,6 @@ width: 100%;
 @media (max-width: 767px){
 
 div #p1{
-
-background-color: pink;
-
-border: 1px solid black;
-
-padding: 2.5px 10px ;
-
-position: absolute;
 
 font-size: 20px;
 
@@ -341,41 +274,19 @@ width: 100px;
 
 height: 40px;
 
-text-align: center;
-
 float: right;
 }
 
 div #p2{
-
-background-color: grey;
-
-border: 1px solid black;
-
-padding: 5px;
-
-padding-top: 50px;
-
-float: left;
 
 width: 100%;
 }
 
 div #p3{
 
-background-color: red;
-
-color: white;
-
-border: 1px solid black;
-
-padding: 2.5px 10px ;
-
 font-size: 20px;
 
 font-weight: bold;
-
-position: absolute;
 
 top: 267px;
 
@@ -392,28 +303,10 @@ float: right;
 
 div #p4{
 
-background-color: grey;
-
-border: 1px solid black;
-
-padding: 5px;
-
-padding-top: 50px;
-
-float: left;
-
 width: 100%;
 }
 
 div #p5{
-
-background-color: yellow;
-
-border: 1px solid black;
-
-padding: 2.5px 10px ;
-
-position: absolute;
 
 right: 42px;
 
@@ -434,16 +327,6 @@ float: right;
 
 div #p6{
 
-background-color: grey;
-
-border: 1px solid black;
-
-padding: 5px;
-
-padding-top: 50px;
-
-float: left;
-
-width: 100%;
+  width: 100%;
 }
 }
