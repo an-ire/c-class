@@ -34,6 +34,8 @@ div #h1{
     padding: 4px 10px ;
 
     position: absolute;
+	
+    font-weight: bold;
 }
 
 div #h2{
@@ -46,10 +48,12 @@ div #h2{
     padding: 2.5px 10px ;
 
     position: absolute;
+    
+    font-weight: bold;
 }
 
 div #h3{
-	background-color: brown;
+	background-color: chrome yellow;
 
     color: white;
 
@@ -58,6 +62,8 @@ div #h3{
     padding: 2.5px 10px ;
 
     position: absolute;
+	
+    font-weight: bold;
 }
 
 div #p1{
@@ -175,9 +181,7 @@ div #p3{
 @media (min-width: 768px) and (max-width:991px) {
 
 div #h1{
-	font-weight: bold;
-
-    font-size: 20px;
+	font-size: 20px;
 
     top:157px;
 
@@ -201,9 +205,7 @@ div #p1{
 }
 
 div #h2{
-	font-weight: bold;
-
-    font-size: 20px;
+	font-size: 20px;
 
     top:157px;
 
@@ -227,9 +229,7 @@ div #p2{
 }
 
 div #h3{
-	font-weight: bold;
-
-    font-size: 20px;
+	font-size: 20px;
 
     top: 332px;
 
@@ -259,8 +259,6 @@ div #p3{
 div #h1{
 	font-size: 20px;
 
-    font-weight: bold;
-
     top:157px;
 
     right: 56px;
@@ -282,8 +280,6 @@ div #p1{
 
 div #h2{
 	font-size: 20px;
-
-    font-weight: bold;
 
     top: 312px;
 
@@ -310,8 +306,6 @@ div #h3{
     top: 470px;
 
     font-size: 20px;
-
-    font-weight: bold;
 
     width: 100px;
 
