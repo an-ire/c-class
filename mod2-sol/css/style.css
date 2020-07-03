@@ -35,6 +35,10 @@ div #h1{
 
     position: absolute;
 	
+    top:0;
+	
+    right:0;
+	
     font-weight: bold;
 }
 
@@ -49,6 +53,10 @@ div #h2{
 
     position: absolute;
     
+    top:0;
+	
+    right:0;
+    
     font-weight: bold;
 }
 
@@ -62,6 +70,10 @@ div #h3{
     padding: 2.5px 10px ;
 
     position: absolute;
+
+    top:0;
+	
+    right:0;
 	
     font-weight: bold;
 }
