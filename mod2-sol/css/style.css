@@ -34,6 +34,15 @@ div #h1{
     padding: 4px 10px ;
 
     position: absolute;
+<<<<<<< HEAD
+=======
+	
+    top:0;
+	
+    right:0;
+	
+    font-weight: bold;
+>>>>>>> 9ffc7995aef60e7e86eb153314554eb97e3f34a2
 }
 
 div #h2{
@@ -46,6 +55,15 @@ div #h2{
     padding: 2.5px 10px ;
 
     position: absolute;
+<<<<<<< HEAD
+=======
+    
+    top:0;
+	
+    right:0;
+    
+    font-weight: bold;
+>>>>>>> 9ffc7995aef60e7e86eb153314554eb97e3f34a2
 }
 
 div #h3{
@@ -58,6 +76,15 @@ div #h3{
     padding: 2.5px 10px ;
 
     position: absolute;
+<<<<<<< HEAD
+=======
+
+    top:0;
+	
+    right:0;
+	
+    font-weight: bold;
+>>>>>>> 9ffc7995aef60e7e86eb153314554eb97e3f34a2
 }
 
 div #p1{
@@ -108,6 +135,7 @@ div #p3{
     margin-left: 2.5%;
 
     width: 28%;
+<<<<<<< HEAD
 }
 
 /********** Large devices only **********/
@@ -196,10 +224,31 @@ div #h1{
     float: right;
 
     position: absolute;
+=======
+}
+
+/********** Large devices only **********/
+
+@media (min-width: 992px) {
+
+div #h1{
+	top: 156.5px;
+
+    left: 19.6%;
+
+    width: 10%;
+
+    height: 6%;
+
+    text-align: center;
+
+    float: left;
+>>>>>>> 9ffc7995aef60e7e86eb153314554eb97e3f34a2
 }
 
 div #p1{
 	float: left;
+<<<<<<< HEAD
 
     width: 43%;
 
@@ -224,10 +273,27 @@ div #h2{
     float: right;
 
     position: absolute;
+=======
+}
+
+div #h2{
+	top: 156.5px;
+
+    right: 37.5%;
+
+    width: 12%;
+
+    height: 6%;
+
+    text-align: center; 
+
+    float: right;
+>>>>>>> 9ffc7995aef60e7e86eb153314554eb97e3f34a2
 }
 
 div #p2{
 	float: left;
+<<<<<<< HEAD
 
     width: 43%;
 
@@ -246,22 +312,41 @@ div #h3{
     width: 100px;
 
     height: 40px;
+=======
+}
+
+div #h3{
+    top: 156.5px;
+
+    right: 4.5%;
+
+    width: 10%;
+
+    height: 6%;
+>>>>>>> 9ffc7995aef60e7e86eb153314554eb97e3f34a2
 
     text-align: center;
 
     float: right;
+<<<<<<< HEAD
 
     position: absolute;
+=======
+>>>>>>> 9ffc7995aef60e7e86eb153314554eb97e3f34a2
 }
 
 div #p3{
 	float: left;
+<<<<<<< HEAD
 
     width: 90%;
+=======
+>>>>>>> 9ffc7995aef60e7e86eb153314554eb97e3f34a2
 }
 
 }
 
+<<<<<<< HEAD
 /******Small devices only**********/
 
 @media (max-width: 767px){
@@ -296,6 +381,112 @@ div #h2{
 	font-size: 20px;
 
     font-weight: bold;
+=======
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width:991px) {
+
+div #h1{
+	font-size: 20px;
+
+    top:157px;
+
+    left: 345px;
+
+    width: 100px;
+
+    height: 40px;
+
+    text-align: center;
+
+    float: right;
+}
+
+div #p1{
+	float: left;
+
+    width: 43%;
+
+    margin-right: 10px;
+}
+
+div #h2{
+	font-size: 20px;
+
+    top:157px;
+
+    right: 99px;
+
+    width: 120px;
+
+    height: 40px;
+
+    text-align: center;
+
+    float: right;
+}
+
+div #p2{
+	float: left;
+
+    width: 43%;
+
+    margin-left: 10px;
+}
+
+div #h3{
+	font-size: 20px;
+
+    top: 332px;
+
+    right: 75px;
+
+    width: 100px;
+
+    height: 40px;
+
+    text-align: center;
+
+    float: right;
+}
+
+div #p3{
+	float: left;
+
+    width: 90%;
+}
+
+}
+
+/******Small devices only**********/
+
+@media (max-width: 767px){
+
+div #h1{
+	font-size: 20px;
+
+    top:157px;
+
+    right: 56px;
+
+    width: 100px;
+
+    height: 40px;
+
+    text-align: center;
+
+    float: right;
+}
+
+div #p1{
+	float: left;
+
+    width: 90%;
+}
+
+div #h2{
+	font-size: 20px;
+>>>>>>> 9ffc7995aef60e7e86eb153314554eb97e3f34a2
 
     top: 312px;
 
@@ -308,8 +499,11 @@ div #h2{
     text-align: center;
 
     float: right;
+<<<<<<< HEAD
 
     position: absolute;
+=======
+>>>>>>> 9ffc7995aef60e7e86eb153314554eb97e3f34a2
 }
 
 div #p2{
@@ -325,8 +519,11 @@ div #h3{
 
     font-size: 20px;
 
+<<<<<<< HEAD
     font-weight: bold;
 
+=======
+>>>>>>> 9ffc7995aef60e7e86eb153314554eb97e3f34a2
     width: 100px;
 
     height: 40px;
@@ -334,6 +531,7 @@ div #h3{
     text-align: center;
 
     float: right;
+<<<<<<< HEAD
 
     position: absolute;
 }
@@ -342,6 +540,16 @@ div #p3{
 	float: left;
 
     width: 90%;
+=======
+}
+
+div #p3{
+	float: left;
+
+    width: 90%;
+}
+
+>>>>>>> 9ffc7995aef60e7e86eb153314554eb97e3f34a2
 }
 
 }
