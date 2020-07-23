@@ -1,58 +1,347 @@
-*{
-	box-sizing:border-box;
-}
-h1{
-	text-align:center;
-	font-size:175%;
-	padding-bottom: 20px;
-}
-p{
-	font-size: 20px;
-}
-h3{
-	position:absolute;
-	top:0;
-	right:0;
-	border-left-width:5%;
-	border-bottom-width: 5%;
-	font-size:125%;
-}
-.section1{
-	position:relative;
-	border:5px blue;
-	background-color:lightpink;
-}
-.section2{
-	position:relative;
-	border:5px blue;
-	background-color: lightgreen;
-}
-.section3{
-	position:relative;
-	border:5px blue;
-	background-color: orange;
+* {
+
+box-sizing: border-box;
+
+margin: 0;
+
+padding: 0;
+
 }
 
-@media(min-width:992px;){
-	.col-lg-4{
-		float:all;
-		width:60%;
-		border:2px blue;
-	}
+h1{
+
+text-align: center;
+
+margin-bottom: 100px;
+
 }
-@media(min-width:768px;)and(max-width:991px;){
-	.col-md-6{
-		float:left;
-		width:75%;
-		border:2px blue;
-	}
-	.col-md-12{
-		width:80%;
-	}
+
+div #container {
+
+position: relative;
+
+top: 60px;
+
+margin: 0;
+
 }
-@media(max-width:767px;){
-	.col-sm-12{
-		width:35%;
-		border:2px blue;
-	}
+
+div #h1{
+	background-color: pink;
+
+    border: 3px solid black;
+
+    padding: 4px 10px ;
+
+    position: absolute;
+}
+
+div #h2{
+	background-color: orange;
+
+    color: white;
+
+    border: 3px solid black;
+
+    padding: 2.5px 10px ;
+
+    position: absolute;
+}
+
+div #h3{
+	background-color: brown;
+
+    color: white;
+
+    border: 3px solid black;
+
+    padding: 2.5px 10px ;
+
+    position: absolute;
+}
+
+div #p1{
+	margin:20px;
+
+    background-color: grey;
+
+    border: 4px solid black;
+
+    padding: 3px;
+
+    padding-top: 50px;
+
+    width: 28%;
+
+    margin-right: 2.5%;
+}
+
+div #p2{
+	background-color: grey;
+
+    border: 4px solid black;
+
+    padding: 5px;
+
+    margin:20px;
+
+    padding-top: 50px;
+
+    width: 28%;
+
+    margin-right: 2.5%;
+
+    margin-left: 2.5%;
+}
+
+div #p3{
+	background-color: grey;
+
+    border: 4px solid black;
+
+    padding: 5px;
+
+    padding-top: 50px;
+
+    margin:20px;
+
+    margin-left: 2.5%;
+
+    width: 28%;
+}
+
+/********** Large devices only **********/
+
+@media (min-width: 992px) {
+
+div #h1{
+	top: 156.5px;
+
+    left: 19.6%;
+
+    width: 10%;
+
+    height: 6%;
+
+    text-align: center;
+
+    float: left;
+
+    position: absolute;
+}
+
+div #p1{
+	float: left;
+}
+
+div #h2{
+	top: 156.5px;
+
+    right: 37.5%;
+
+    width: 12%;
+
+    height: 6%;
+
+    text-align: center; 
+
+    float: right;
+}
+
+div #p2{
+	float: left;
+}
+
+div #h3{
+    top: 156.5px;
+
+    right: 4.5%;
+
+    width: 10%;
+
+    height: 6%;
+
+    text-align: center;
+
+    float: right;
+
+    position: absolute;
+}
+
+div #p3{
+	float: left;
+}
+
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width:991px) {
+
+div #h1{
+	font-weight: bold;
+
+    font-size: 20px;
+
+    top:157px;
+
+    left: 345px;
+
+    width: 100px;
+
+    height: 40px;
+
+    text-align: center;
+
+    float: right;
+
+    position: absolute;
+}
+
+div #p1{
+	float: left;
+
+    width: 43%;
+
+    margin-right: 10px;
+}
+
+div #h2{
+	font-weight: bold;
+
+    font-size: 20px;
+
+    top:157px;
+
+    right: 99px;
+
+    width: 120px;
+
+    height: 40px;
+
+    text-align: center;
+
+    float: right;
+
+    position: absolute;
+}
+
+div #p2{
+	float: left;
+
+    width: 43%;
+
+    margin-left: 10px;
+}
+
+div #h3{
+	font-weight: bold;
+
+    font-size: 20px;
+
+    top: 332px;
+
+    right: 75px;
+
+    width: 100px;
+
+    height: 40px;
+
+    text-align: center;
+
+    float: right;
+
+    position: absolute;
+}
+
+div #p3{
+	float: left;
+
+    width: 90%;
+}
+
+}
+
+/******Small devices only**********/
+
+@media (max-width: 767px){
+
+div #h1{
+	font-size: 20px;
+
+    font-weight: bold;
+
+    top:157px;
+
+    right: 56px;
+
+    width: 100px;
+
+    height: 40px;
+
+    text-align: center;
+
+    float: right;
+
+    position: absolute;
+}
+
+div #p1{
+	float: left;
+
+    width: 90%;
+}
+
+div #h2{
+	font-size: 20px;
+
+    font-weight: bold;
+
+    top: 312px;
+
+    right: 56px;
+
+    width: 120px;
+
+    height: 40px;
+
+    text-align: center;
+
+    float: right;
+
+    position: absolute;
+}
+
+div #p2{
+	float: left;
+
+    width: 90%;
+}
+
+div #h3{
+	right: 56px;
+
+    top: 470px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    width: 100px;
+
+    height: 40px;
+
+    text-align: center;
+
+    float: right;
+
+    position: absolute;
+}
+
+div #p3{
+	float: left;
+
+    width: 90%;
+}
+
 }
